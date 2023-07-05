@@ -1,0 +1,22 @@
+.OuterSinglePost {
+  position: relative;
+}
+
+.Singlepost {
+  margin: 20px;
+  -webkit-box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 25px;
+  overflow: hidden;
+  display: flex;
+  height: 85vh;
+}
+
+.Singlepost .singleimg {
+  width: 75%;
+  height: 100%;
+}
+
+.displaySingleList {
+  margin: 10px;
+}

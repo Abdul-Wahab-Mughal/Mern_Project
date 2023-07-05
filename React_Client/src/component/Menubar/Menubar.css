@@ -1,0 +1,41 @@
+@import url("../../utilites/Color.css");
+
+.Menu {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  background-color: var(--menu);
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 25px;
+}
+
+.welcomeset {
+  text-transform: capitalize;
+}
+
+.nav {
+  display: flex;
+}
+
+.link {
+  color: var(--text);
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  transition: 1.5s;
+}
+
+.link:hover {
+  background-color: rgb(0, 0, 0, 0.25);
+}
+
+.appname_menu {
+  font-weight: bold;
+}
+
+.username_menu {
+  font-weight: bold;
+}

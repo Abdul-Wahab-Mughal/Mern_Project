@@ -1,0 +1,28 @@
+@import url("../../utilites/Color.css");
+
+.EmptyPost {
+  background-color: var(--menu);
+  margin: 10px;
+  -webkit-box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.1);
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 52px;
+  font-weight: bolder;
+}
+
+.pagination {
+  justify-content: center;
+  --bs-pagination-bg: var(--App);
+  --bs-pagination-disabled-bg: var(--menu);
+  --bs-pagination-hover-color: var(--App);
+  --bs-pagination-hover-bg: var(--menu);
+  --bs-pagination-color: var(--text);
+  --bs-pagination-focus-color: var(--text);
+  --bs-pagination-focus-box-shadow: var(--App);
+  --bs-pagination-active-color: var(--text);
+  --bs-pagination-active-bg: var(--menu);
+  --bs-pagination-active-border-color: var(--menu);
+}

@@ -1,0 +1,20 @@
+@import url("../../utilites/Color.css");
+
+.button {
+  cursor: pointer;
+  z-index: 1;
+  background-color: var(--App);
+  padding: 15px;
+  font-weight: bold;
+  color: white;
+  border-radius: 10px;
+  font-size: 20px;
+  border: 0;
+  transition: .5s;
+}
+
+.button:hover {
+  -webkit-box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.5);
+  transform: translateY(-10px);
+}
